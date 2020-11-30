@@ -1,0 +1,73 @@
+.itemListContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.item-wrapper {
+    display: flex;
+    flex: 1;
+    flex-basis: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 78%; */
+    border: 1px solid rgb(226, 224, 224);
+    align-items: center;
+    margin-right: 40px;
+    box-shadow: 1px 1px rgb(226, 224, 224);
+
+}
+
+.item-name-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-image-container {
+    padding: 4px;
+}
+
+.quantity {
+    padding: 10px;
+    border: 1px solid rgb(226, 224, 224);
+    display: flex;
+    justify-content: center;
+    min-width: 50px;
+    align-items: center;
+    box-shadow: 1px 1px rgb(226, 224, 224);
+}
+
+.item-quantity-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    flex-basis: 20%;
+    margin-right: 20px;
+}
+
+.plus-icon {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.minus-icon {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item-price-container {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    flex: 1;
+    flex-basis: 20%;
+    justify-content: flex-end;
+}
+.cancel-icon{
+    cursor: pointer;
+}

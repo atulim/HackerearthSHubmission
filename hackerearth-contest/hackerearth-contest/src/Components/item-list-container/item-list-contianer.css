@@ -1,0 +1,40 @@
+/* .item-list-container {
+    display: block;
+} */
+
+.item-list-tab-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0 2%;
+    border: 1px solid rgb(226, 224, 224);
+    border-right: none;
+    border-left: none;
+    margin-bottom: 4%;
+}
+
+.total-items {
+    display: flex;
+    flex: 1;
+    flex-basis: 60%;
+    /* margin-right: 94px; */
+}
+
+.quantity-title {
+    display: flex;
+    flex: 1;
+    flex-basis: 20%;
+    /* margin-right: 60px; */
+}
+
+.price-title{
+    display: flex;
+    flex: 1;
+    flex-basis: 20%;
+    justify-content: flex-end;
+}
+.item-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    
+}
